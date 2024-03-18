@@ -1,0 +1,57 @@
+<section>
+
+
+
+  <div class="fixedbar-container noscrolled" (scroll)="onscroll()"
+      [ngClass]="{'scrolled':pageScrolling==true, 'noscrolled':pageScrolling==false, 'hidden-fixed-bar' : hideInfoBar==true}">
+
+    <div class="fixedbar-content">
+      <div class="fixedbar-item">
+        <a href="tel:{{contacts.phoneNumber}}">
+          <fa-icon [icon]="phoneIcon" size="xl" class="fixedbar-icon"></fa-icon>
+        </a>
+        <a  *ngIf="barDescriptionHidden" href="tel:{{contacts.phoneNumber}}">{{contacts.phoneNumber}}</a>
+      </div>
+
+      <div class="fixedbar-item">
+        <a href="mailto:{{contacts.email}}">
+          <fa-icon [icon]="mailIcon" size="xl" class="fixedbar-icon"></fa-icon>
+        </a>
+        <a *ngIf="barDescriptionHidden" href="mailto:{{contacts.email}}">{{contacts.email}}</a>
+      </div>
+
+      <div class="fixedbar-item location-item">
+        <a class="location" href="{{contacts.locationLink}}">
+          <fa-icon [icon]="locationIcon" size="xl" class="fixedbar-icon" title="Welding Street 7A Tennessee, USA"></fa-icon>
+        </a>
+        <a *ngIf="barDescriptionHidden" class="location" href="{{contacts.locationLink}}">Welding Street 7A
+          Tennessee, USA</a>
+      </div>
+
+      <div class="fixedbar-item">
+        <fa-icon [icon]="clockIcon" size="xl" class="fixedbar-icon" (click) = "showTimetable()"></fa-icon>
+        <span *ngIf="barDescriptionHidden" class="clock">Mon-Fri: 8:00-18:00 | Sat: 9:00-12:00</span>
+        <span class="timetable-hidden" *ngIf="!timetableHidden">
+          Mon-Fri: 8:00-18:00<br>Sat: 9:00-12:00
+        </span>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+    <!-- <div class="divide"></div> -->
+<!--
+    <div class="fixedbar-below">
+      <div class="fixedbar-item">
+        <fa-icon [icon]="clockIcon" size="lg" class="b-fixedbar-icon"></fa-icon>
+        <span class="clock">{{clock}}</span>
+      </div>
+    </div> -->
+
+  </div>
+</section>

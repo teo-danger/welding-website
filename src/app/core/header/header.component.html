@@ -1,0 +1,32 @@
+
+<mat-toolbar class="main-toolbar noscrolled" (scroll)="onscroll()" [ngClass]="pageScrolling ? 'scrolled' : 'noscrolled' ">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <!-- <span class="example-spacer"></span> -->
+
+  <div class="toolbar-menu">
+    <button mat-button class="link-nav" routerLink="/home" routerLinkActive="current-link-nav">Home</button>
+    <!-- <button mat-button class="link-nav" routerLink="/projects" routerLinkActive="current-link-nav">Projects</button> -->
+    <button mat-button class="link-nav" routerLink="/services" routerLinkActive="current-link-nav">Services</button>
+    <button mat-button class="link-nav" routerLink="/portfolio" routerLinkActive="current-link-nav">Portfolio</button>
+
+    <span class="nav-logo">
+      <a routerLink="/home"><img class="logo-img" (scroll)="onscroll()" [ngClass]="logoResizing ? 'logo-resized' : 'logo-img'"
+        src="../../../assets/images/28267842_7.png" alt="Company Logo"></a>
+
+
+
+    </span>
+
+    <button mat-button class="link-nav" routerLink="/about" routerLinkActive="current-link-nav">About Us</button>
+    <button mat-button class="link-nav" routerLink="/news" routerLinkActive="current-link-nav">News</button>
+    <button mat-button class="link-nav" routerLink="/contacts" routerLinkActive="current-link-nav">Contacts</button>
+  </div>
+
+  <button mat-icon-button class="example-icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+

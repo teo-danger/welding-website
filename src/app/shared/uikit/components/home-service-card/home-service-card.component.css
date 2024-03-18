@@ -1,0 +1,76 @@
+.col1{
+  width: 90%;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* margin: 6em 3em 10em 3em; */
+}
+
+.title-box{
+  color: white;
+}
+
+h4{
+  font-size: 1em;
+  text-align: center;
+  font-style: italic;
+  color: rgb(130, 130, 130);
+  /* margin: 2em 0; */
+}
+
+.img-box > img{
+  width: 100%;
+  /* height: 20em; */
+  /* margin-bottom: 10vh; */
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 50, 0.25) 0px 54px 55px, rgba(50,50, 50, 0.12) 0px -12px 30px, rgba(50, 50, 50, 0.12) 0px 4px 6px, rgba(50, 50, 50, 0.17) 0px 12px 13px, rgba(50, 50, 50, 0.09) 0px -3px 5px;
+}
+
+.img-box{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-btn{
+  width: 70%;
+  margin-top: 7vh;
+  background-color: rgba(63, 63, 63, 0.495);
+  color: white;
+  transition: 0.4s ease;
+}
+
+.card-btn:hover{
+  background-color: rgb(172, 25, 25);
+  transition: 0.4s ease;
+}
+
+
+
+
+
+/* DESKTOP */
+@media only screen and (min-width: 961px) {
+  .title-box{
+    font-size: 2em;
+  }
+
+  h4{
+    font-size: 1.2em;
+  }
+
+  .img-box{
+    flex-direction: row;
+  }
+
+  .img-box > img{
+    width: 40em;
+    height: 30em;
+    margin-bottom:10vh;
+    margin: 3em
+  }
+}
+

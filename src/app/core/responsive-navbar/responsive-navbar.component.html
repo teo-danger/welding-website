@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-md navbar-light main-toolbar noscrolled" (scroll)="onscroll()" [ngClass]="pageScrolling ? 'scrolled' : 'noscrolled' ">
+
+  <fa-icon [icon]="faBars" size="2x" class="bars-icon" (click) = "openMobileMenu(true)"></fa-icon>
+
+  <span class="nav-logo">
+    <a routerLink="/home"><img class="logo-img" (scroll)="onscroll()" [ngClass]="logoResizing ? 'logo-resized' : 'logo-img'"
+      src="../../../assets/images/28267842_7.png" alt="Company Logo"></a>
+  </span>
+
+
+  <div class="menu-closed" [ngClass]=" mobileMenu ? 'menu-open' : 'menu-closed' ">
+    <fa-icon [icon]="faX" size="3x" class="x-icon" (click) = "openMobileMenu(false)"></fa-icon>
+    <ul class="navbar-nav"  (click) = "openMobileMenu(false)">
+      <li class="nav-item">
+        <a mat-button class="link-nav" routerLink="/home" routerLinkActive="current-link-nav">Home</a>
+      </li>
+      <li class="nav-item">
+        <a mat-button class="link-nav" routerLink="/services" routerLinkActive="current-link-nav">Services</a>
+      </li>
+      <li class="nav-item">
+        <a mat-button class="link-nav" routerLink="/portfolio" routerLinkActive="current-link-nav">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a mat-button class="link-nav" routerLink="/about" routerLinkActive="current-link-nav">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a mat-button class="link-nav" routerLink="/news" routerLinkActive="current-link-nav">News</a>
+      </li>
+      <li class="nav-item">
+        <a mat-button class="link-nav" routerLink="/contacts" routerLinkActive="current-link-nav">Contacts</a>
+      </li>
+
+    </ul>
+  </div>
+
+</nav>
+
+
+

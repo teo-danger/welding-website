@@ -1,0 +1,164 @@
+/* mobile */
+
+/* NAVBAR */
+.main-toolbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #00000071;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 102;
+}
+
+
+
+/* LOGO */
+.logo-img{
+  width: 10em;
+  height: 5em;
+  object-fit: cover;
+  transition: 0.4s ease;
+  user-select: none;
+}
+
+.logo-resized{
+  width: 6em;
+  height: 3em;
+  transition: 0.4s ease;
+}
+
+
+
+
+/* SCROLLING BEHAVIOUR */
+
+.noscrolled{
+  padding: 0.8em 20px;
+  transition: 0.4s ease;
+}
+
+.scrolled{
+  padding: 0.8em 20px;
+  transition: 0.4s ease;
+  background-color: #000000;
+}
+
+
+
+
+/* -----------------------------------MENU */
+.menu-closed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0vh;
+  left: -300vw;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  background-color: #000000;
+  transition: 0.5s ease-in;
+}
+
+
+.menu-open{
+  left: 0vw;
+  transition: 0.5s ease-out;
+}
+
+/* HAMBURGER */
+
+.bars-icon{
+  color: white;
+  cursor: pointer;
+}
+
+.bars-icon:hover{
+  color: rgba(255, 255, 255, 0.499);
+}
+
+.bars-icon:active{
+  color: rgba(226, 27, 27, 0.636);
+}
+
+/* X ICON */
+.x-icon{
+  position: absolute;
+  color: white;
+  top: 4vh;
+  left: 4vw;
+  cursor: pointer;
+}
+
+.x-icon:hover{
+  color: rgba(255, 255, 255, 0.499);
+}
+
+.x-icon:active{
+  color: rgba(226, 27, 27, 0.636);
+}
+
+/* LINKS */
+.link-nav{
+  margin: 0.5em 0;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-decoration: none;
+}
+/*
+.navbar-nav{
+  width: 100%;
+} */
+
+.link-nav:focus {
+  outline: none;
+}
+
+.current-link-nav{
+  background-color: rgba(226, 27, 27, 0.636);
+}
+
+
+
+/*------------------------------------------------------------------------ RESPONSIVE CODE------------------------------------------------------------------------------------- */
+
+
+/* tablet */
+@media only screen and (min-width: 501px) and (max-width: 960px){
+
+}
+
+
+
+
+/* desktop */
+@media only screen and (min-width: 961px){
+
+
+  .bars-icon, .x-icon{
+    display:none;
+  }
+
+  .init-hide{
+    display: block;
+  }
+
+
+  .menu-closed{
+    position: relative;
+    left: 0vw;
+    height: auto;
+    width: auto;
+    background-color: #00000000;
+    margin-right: 1vw;
+  }
+
+  .logo-img{
+    margin-left: 1vw;
+  }
+
+}

@@ -1,0 +1,16 @@
+.mat-mdc-tab:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label, .mat-mdc-tab-link:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label {
+  color: white;
+}
+
+.mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline, .mat-mdc-tab-link:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline {
+  border-color: white;
+  border-top: 1px solid white;
+}
+
+
+
+
+/*purple box on active
+.mat-ripple:not(:empty){
+  background-color: rgb(123, 22, 17);
+}*/

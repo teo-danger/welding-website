@@ -1,0 +1,43 @@
+<section>
+  <div class="service-container">
+    <app-jumbotron title="Services" backgroundImg="../../../assets/images/pexels-kateryna-babaieva-3186949.jpg"></app-jumbotron>
+
+    <mat-tab-group animationDuration="1000ms">
+
+      <h2 class="title-box"></h2>
+
+      <!-- WELDING SERVICES -->
+      <mat-tab label="Welding Services">
+          <div class="welding-section flex-grid">
+            <div class="row1">
+              <app-service-card [cardData] = "serviceCardsData"></app-service-card>
+            </div>
+          </div>
+      </mat-tab>
+
+      <!-- HOME SERVICES -->
+      <mat-tab label="Home Services">
+        <div class="flex-grid">
+          <div class="row1">
+            <app-home-service-card [techCardData]="deliveryServiceCardsData"></app-home-service-card>
+          </div>
+      </div>
+
+      </mat-tab>
+
+      <!-- MATERIALS -->
+      <mat-tab label="Materials & Tech">
+        <div class="flex-grid">
+          <div class="row1">
+            <app-materials-card [materialsCardData]="materialsCardsData"></app-materials-card>
+            <app-technologies-card [technologiesCardData]="technologiesCardsData"></app-technologies-card>
+          </div>
+      </div>
+      </mat-tab>
+    </mat-tab-group>
+
+    <!-- CLOSING SECTION -->
+    <div class="closing-section"></div>
+
+  </div>
+</section>

@@ -1,0 +1,40 @@
+.counterbar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 29vh;
+  background-image: linear-gradient(#0D0D0B, #182231);
+  box-shadow: inset 50px 50px 50px 50px #0d0d0b80;
+  /* background-color: #0D0D0B; */
+  /* background-image */
+}
+
+
+.counterbar-content{
+  /* border: 1px solid yellow; */
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.counterbar-item{
+  width: 50%;
+}
+
+.number{
+  /* border: 1px solid red; */
+  color: #adada6;
+  font-size: 2.5em;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: #adada6 1px 1px 1px;
+}
+
+.labels{
+  /* border: 1px solid green; */
+  color: #adada6;
+  font-size: 1.7em;
+  text-align: center;
+  text-shadow: #adada6 1px 1px 1px;
+
+}

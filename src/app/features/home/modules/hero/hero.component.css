@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: url(../../../../../assets/images/pexels-korhan-erdol-2554128.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transition: 0.4s ease;
+  /* filter: brightness(80%); */
+}
+
+.hero-content {
+  width: 90%;
+  padding: 5em;
+}
+
+.hero-content > h2{
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.hero-content > h3{
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  line-height: 1em;
+}
+
+.cfm-btn{
+  background-color: rgba(226, 27, 27, 0.636);
+  color: white;
+}
+
+

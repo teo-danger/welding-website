@@ -1,0 +1,44 @@
+.space-bar{
+  background-color: #000000;
+  height: 13.5vh;
+}
+
+.title-container{
+  height: 45vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: last baseline;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.title-container h1{
+  padding: 0 1em 0.5em 0;
+  color: rgb(255, 255, 255);
+  font-size: 2.5em;
+  text-shadow: rgb(0, 0, 0) 7px 7px 7px;
+}
+
+
+@media only screen and (min-width: 961px) {
+
+  .jumbotron-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-container{
+    align-self: center;
+    width: 100%;
+    background-position: center 40%;
+  }
+
+  .title-container h1{
+    padding: 0 2em 1em 0;
+    color: rgb(255, 255, 255);
+    font-size: 4.5em;
+  }
+
+
+}

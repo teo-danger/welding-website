@@ -1,0 +1,23 @@
+<p>service-card works!</p>
+<div class="col1" *ngFor="let data of cardData">
+  <div class="img-box"
+      data-aos="zoom-in-right"
+      data-aos-duration="1000"
+      data-aos-delay="0"
+      data-aos-once="true">
+    <img src="{{data.imgUrl}}">
+  </div>
+  <div class="text-box"
+      data-aos="zoom-in-left"
+      data-aos-duration="1000"
+      data-aos-delay="0"
+      data-aos-once="true">
+
+    <h2>{{data.title}}</h2>
+    <h4>{{data.subtitle}}</h4>
+    <p>{{data.description}}</p>
+
+    <button mat-raised-button class="card-btn" routerLink="['/data.pageLink']">More info</button>
+  </div>
+</div>
+
