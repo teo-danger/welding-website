@@ -18,13 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -33,13 +26,14 @@
 <h3 align="center">Welding Website</h3>
 
   <p align="center">
+    ***Work In Progress***
     This a single page application developed in Angular in order to improve my knowledges about this framework, front end development and UI skills. 
   </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTS 
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -54,29 +48,54 @@
     </li>
   </ol>
 </details>
+-->
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-This Single Page Application ...
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+This is a Angular based Single Page Application. 
+The aim of the project is to develop the client side welding workshop's showcase, and improve my UI and Angular knowledges. 
+
+Some basic concepts were tried out such as binding strategies, feature modules lazy loading, responsive development, project structure, components communication and Angular interaction with UI libraries.
+
+The application is under development and further features will be implemented, in order to testing other several concepts.
 <!-- argomenti trattati: binding strategies, lazy loading, aos library, responsive development, ng materials, bootstrap  -->
 
-`github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Screenshots
+<details>
+  <summary>Screenshots</summary>
+  <ol>
+    <li>
+      <a href="https://github.com/teo-danger/welding-website/assets/96834338/c895d1e0-7582-4e35-af90-46e3a666299b">Screenshot1</a>
+    </li>
+    <li>
+      <a href="https://github.com/teo-danger/welding-website/assets/96834338/c00d1333-8852-481a-bbeb-cc7f132cb68a">Screenshot2</a>
+    </li>
+    <li>
+      <a href="https://github.com/teo-danger/welding-website/assets/96834338/0c35f989-a515-4a45-9a2d-c2e2d8b562da">Screenshot3</a>
+    </li>
+  </ol>
+</details>
+
 
 
 
 ### Built With
 
-* [![Angular][Angular.io]][Angular-url]
-* [![AOS][]][]
-* [![Bootstrap][]][]
-* [![AngularMaterials][]][]
-
+<!-- * [![Angular][Angular.io]][Angular-url]
+* [![AOS][][AOS-url]]
+* [![Bootstrap][Bootstrap-url]]
+* [![AngularMaterials][]][] -->
+* Angular 17
+* AOS (Animate On Scroll Library)
+* Bootstrap 4.6
+* Angular Materials
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -84,10 +103,9 @@ This Single Page Application ...
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Check it out
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+I will deploy it on firebase so that you can navigate the site. Stay tuned.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -96,23 +114,11 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[AOS]: https://img.shields.io/badge/AOS-000000?style=for-the-badge
+[AOS-url]: https://michalsnik.github.io/aos/
+[Bootstrap]: https://img.shields.io/badge/Bootstrap-20232A?style=for-the-badge&logo=bootstrap&logoColor=8a12fc
+[Bootstrap-url]: https://getbootstrap.com/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
