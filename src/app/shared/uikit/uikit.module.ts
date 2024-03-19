@@ -8,8 +8,11 @@ import { ResponsiveImageGridComponent } from './components/responsive-image-grid
 import { ServiceCardComponent } from './components/service-card/service-card.component';
 import { TechnologiesCardComponent } from './components/technologies-card/technologies-card.component';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
+import { HeroComponent } from './components/hero/hero.component';
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 const UICOMPONENTS = [
+  HeroComponent,
   CounterBarComponent,
   HomeServiceCardComponent,
   JumbotronComponent,

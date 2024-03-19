@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import "./assets/scss/components/am-components/_am-tabs.scss";
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-@import url("https://animejs.com/documentation/assets/css/documentation.css");
+/* body { margin: 0; font-family: 'Poppins', sans-serif; } */
 
-@import url("https://animejs.com/documentation/assets/css/animejs.css");
+
+
+
+/* html, body { height: 100%; } */
+/* @import url("https://animejs.com/documentation/assets/css/documentation.css"); */
+/* @import url("https://animejs.com/documentation/assets/css/animejs.css"); */
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+

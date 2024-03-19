@@ -21,6 +21,15 @@ export class ResponsiveNavbarComponent implements OnInit {
   pageScrolling: boolean = false;
   logoResizing: boolean = false;
 
+  links: string[] = [
+    'home',
+    'services',
+    'portfolio',
+    'about',
+    'news',
+    'contacts'
+  ]
+
 
 
   ngOnInit(): void {

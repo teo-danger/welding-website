@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { UikitModule } from 'src/app/shared/uikit/uikit.module';
-import { HeroModule } from './modules/hero/hero.module';
 import { AngularMaterialModule } from 'src/app/shared/uikit/angular-material/angular-material.module';
 
 
@@ -16,7 +15,6 @@ import { AngularMaterialModule } from 'src/app/shared/uikit/angular-material/ang
     CommonModule,
     HomeRoutingModule,
     UikitModule,
-    HeroModule,
     AngularMaterialModule
   ]
 })
